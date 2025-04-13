@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="./assets/code.png" type="image" width="50%">
+    <title>Portfólio</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap:ital,wdth,wght@0,75..125,700;1,75..125,700&family=Inconsolata:wdth@50..200&family=Maven+Pro&display=swap"
+      rel="stylesheet"
+    />
+
+    <link loading="lazy" rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <header loading="lazy" id="info" class="container">
+      <header>
+        <div class="avatar">
+          <img loading="lazy"
+            src="https://media.licdn.com/dms/image/v2/D4D03AQG2qPGRLwrIOg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1711824797175?e=1750291200&v=beta&t=dkNgntTNtqwAQFrGdAoOcbjM8GCGT8UFmY9TmJkm2o0"
+            alt="Foto de perfil"
+          />
+        </div>
+
+        <h4>Hello World! Meu nome é <span>Caio Alberto</span> e sou</h4>
+
+        <h1>Desenvolvedor Fullstack</h1>
+
+        <p class="tx-sm">
+          Sou apaixonado por tecnologia des de criança quando vi meu pai programando em pascal,
+          fascinado por aprender coisas novas diariamente, e por novos desafios. sempre pronto para o meu proximo nivel! 
+        </p>
+      </header>
+
+      <nav class="tags">
+        <ul class="gap-16 flex">
+          <li>
+            <img loading="lazy" src="./assets/logos/GitHub.svg" alt="logo GitHub" />
+            GitHub
+          </li>
+          <li>
+            <img loading="lazy" src="./assets/logos/HTML.svg" alt="logo HTML" />
+            HTML
+          </li>
+          <li>
+            <img loading="lazy" src="./assets/logos/CSS.svg" alt="logo CSS" />
+            CSS
+          </li>
+          <li>
+            <img loading="lazy" src="./assets/logos/JavaScript.svg" alt="logo JavaScript" />
+            JavaScript
+          </li>
+          <li>
+            <img loading="lazy" src="./assets/logos/React.svg" alt="logo React" />
+            React
+          </li>
+          <li>
+            <img loading="lazy" src="./assets/logos/NodeJs.svg" alt="logo node.js" />
+            Node.Js
+          </li>
+          <li>
+            <img loading="lazy" id="img-kubernetes" src="./assets/logos/kubernetes.svg" alt="logo kubernetes" />
+            Kubernets
+          </li>
+          <li>
+            <img loading="lazy" id="img-docker" src="./assets/logos/docker.svg" alt="logo docker" />
+            Docker
+          </li>
+        </ul>
+      </nav>
+
+      <button id="scroll">
+        <img loading="lazy" id="arrow" src="./assets/CaretDoubleDown.svg" alt="duas setas" />
+      </button>
+    </header>
+
+    <main>
+      <section id="jobs">
+        <header>
+          <h4><span>Meu Trabalho</span></h4>
+          <h2>Veja os projetos em destaque</h2>
+        </header>
+
+        <div class="projects">
+          <div class="cards">
+            <img loading="lazy"
+              src="./assets/images/ThumbnailProject01.png"
+              alt="Travelgram"
+            />
+
+            <div class="description flex-col-8">
+              <h3>Travelgram</h3>
+
+              <p>
+                Rede social onde as pessoas mostram os registros de suas viagens
+                pelo mundo
+              </p>
+            </div>
+          </div>
+
+          <div class="cards">
+            <img loading="lazy"
+              src="./assets/images/ThumbnailProject02.png"
+              alt="Tech News"
+            />
+
+            <div class="description flex-col-8">
+              <h3>Tech News</h3>
+              <p>
+                Homepage de um portal de notícias sobre a área de tecnologia
+              </p>
+            </div>
+          </div>
+
+          <div class="cards">
+            <img loading="lazy" src="./assets/images/ThumbnailProject03.png" alt="Recipes" />
+
+            <div class="description flex-col-8">
+              <h3>Página de Receita</h3>
+              <p>Página com o passo a passo de uma receita para cupcakes</p>
+            </div>
+          </div>
+
+          <div class="cards">
+            <img loading="lazy" src="./assets/images/ThumbnailProject04.png" alt="Zingen" />
+
+            <div class="description flex-col-8">
+              <h3>Zingen</h3>
+              <p>
+                Landing Page completa e responsiva de um aplicativo de Karaokê
+              </p>
+            </div>
+          </div>
+
+          <div class="cards">
+            <img loading="lazy" src="./assets/images/ThumbnailProject05.png" alt="Refund" />
+
+            <div class="description flex-col-8">
+              <h3>Refund</h3>
+              <p>Um sistema para pedido e acompanhamento de reembolso</p>
+            </div>
+          </div>
+
+          <div class="cards">
+            <img loading="lazy" src="./assets/images/ThumbnailProject06.png" alt="Travels" />
+
+            <div class="description flex-col-8">
+              <h3>Página de turismo</h3>
+              <p>
+                Página com as principais informações para quem quer viajar para
+                Busan
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <header class="flex-col-8">
+          <h4><span>Meus serviços</span></h4>
+          <h2>Como posso ajudar o seu negócio</h2>
+        </header>
+
+        <div class="cards flex gap-24">
+          <div class="card flex-col-20">
+            <div>
+              <img loading="lazy" src="./assets/logos/Devices.svg" alt="Devices" />
+            </div>
+
+            <div class="description flex-col-8">
+              <h3>Websites e Aplicativos</h3>
+              <p class="tx-sm">Desenvolvimento de interfaces</p>
+            </div>
+          </div>
+
+          <div class="card flex-col-20">
+            <div>
+              <img loading="lazy" src="./assets/logos/HardDrives.svg" alt="HardDrives" />
+            </div>
+
+            <div class="description flex-col-8">
+              <h3>API e banco de dados</h3>
+              <p class="tx-sm">Criação de serviços do sistema</p>
+            </div>
+          </div>
+
+          <div class="card flex-col-20">
+            <div>
+              <img loading="lazy" src="./assets/logos/Infinity.svg" alt="simbolo do infinito" />
+            </div>
+
+            <div class="description flex-col-8">
+              <h3>DevOps</h3>
+              <p class="tx-sm">Gestão e infraestrutura da aplicação</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section loading="lazy" class="contact">
+        <header class="flex-col-8">
+          <h4>Contato</h4>
+          <h2>Gostou do meu trabalho?</h2>
+          <p class="tx-md">
+            Entre em contato ou acompanhe as minhas redes sociais!
+          </p>
+        </header>
+
+        <div class="links grid gap-16">
+          <a href="#lkd" class="inherit">
+            <div class="social-links" id="lkd">
+              <img loading="lazy" src="./assets/logos/LinkedinLogo.svg" alt="Linkedin Logo" />
+
+              <p class="tx-md">Linkedin</p>
+
+              <img loading="lazy"
+                src="./assets/logos/ArrowUpRight.svg"
+                alt="seta diagonal azul"
+              />
+            </div>
+          </a>
+
+          <a href="#insta" class="inherit">
+            <div class="social-links" id="insta">
+              <img loading="lazy" src="./assets/logos/InstagramLogo.svg" alt="Instagram Logo" />
+
+              <p class="tx-md">Instagram</p>
+
+              <img
+                src="./assets/logos/ArrowUpRight.svg"
+                alt="seta diagonal azul"
+              />
+            </div>
+          </a>
+
+          <a href="#git" class="inherit">
+            <div class="social-links" id="git">
+              <img loading="lazy" src="./assets/logos/LinkedinLogo.svg" alt="Linkedin Logo" />
+
+              <p class="tx-md">GitHub</p>
+
+              <img loading="lazy"
+                src="./assets/logos/ArrowUpRight.svg"
+                alt="seta diagonal azul"
+              />
+            </div>
+          </a>
+
+          <a href="#e-mail" class="inherit">
+            <div class="social-links" id="e-mail">
+              <img loading="lazy" src="./assets/logos/EnvelopeSimple.svg" alt="E-mail Logo" />
+
+              <p class="tx-md">E-mail</p>
+
+              <img loading="lazy"
+                src="./assets/logos/ArrowUpRight.svg"
+                alt="seta diagonal azul"
+              />
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js">
+    </script>
+  </body>
+</html>

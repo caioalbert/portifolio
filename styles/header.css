@@ -1,0 +1,119 @@
+#info {
+  background-image: url(../assets/images/BackgroundIntro.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  max-width: 100%;
+  
+  padding: 12rem 18.3rem 16rem;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  header {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 18rem 12rem;
+  }
+
+  .avatar {
+    position: relative;
+    margin: 0 auto 5.6rem;
+    width: 11.2rem;
+    height: 11.2rem;
+  }
+
+  .avatar::before {
+    content: '';
+    width: 4rem;
+    height: 3.5rem;
+
+    position: absolute;
+    background-image: url(../assets/code.png);
+    background-repeat: no-repeat;
+    right: 11.25%;
+    bottom: 13.24%;
+
+  }
+
+  .avatar img {
+    border: .5rem solid var(--red);
+    border-radius: 50%;
+    
+    width: 9.6rem;
+    height: 9.6rem;
+    
+    object-fit: contain;
+  }
+
+  
+  h1 {
+    margin-bottom: 2rem;
+  }
+  
+  p {
+    color: var(--gray-400);
+    margin: auto;
+    text-align: center;
+    max-width: 68rem;
+  }
+}
+
+.tags {
+  margin: 0 auto 9.4rem;
+  
+  ul li {
+   display: flex;
+   gap: .8rem;
+   align-items: center;
+   
+   background-color: var(--gray-300);
+   border-radius: 99.9rem;
+   padding: .8rem 1.6rem;
+   font: var(--text-md);
+   color: var(--gray-500);
+  }
+
+}
+
+#img-kubernetes {
+
+    width: 20px;
+    heigth: 20px;
+
+}
+#img-docker {
+
+    width: 20px;
+    heigth: 20px;
+
+}
+
+#scroll {
+  position: fixed;
+  bottom: 0;
+  right: 1rem;
+  z-index: 1;
+  width: 2.3rem;
+  margin: auto;
+  background-color: transparent;
+  border: none;
+}
+
+#scroll:active {
+  animation: active paused 1s ease-in;
+}
+
+@keyframes active {
+  0% {
+    transform: scale(0.8);
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    max-width: 100vw;
+  }
+}

@@ -11,7 +11,7 @@ Portfólio de um dev fictício feito como forma de estudos do curso Fullstack da
 </p>
 
 <p align="center">
-<img alt="portfóliod dev" src="./github/projeto.png" width="100%">
+<img alt="portfóliod dev" src="./github/projeto-dev.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias

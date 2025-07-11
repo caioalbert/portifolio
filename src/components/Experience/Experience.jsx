@@ -20,45 +20,50 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      company: "AWS",
-      position: "Cloud Developer",
-      period: "Jan 2023 - Presente",
-      location: "São Paulo, SP",
+      company: "FitBank",
+      position: "DevOps Engineer",
+      period: "Maio de 2024 - Presente (1 ano 3 meses)",
+      location: "Fortaleza, Ceará, Brasil",
       description: [
-        "Desenvolvimento e manutenção de soluções em nuvem utilizando serviços AWS",
-        "Implementação de arquiteturas serverless com Lambda, API Gateway e DynamoDB",
-        "Automação de infraestrutura utilizando CloudFormation e CDK",
-        "Otimização de custos e performance de aplicações em nuvem"
+        "Desenvolvimento de Shell Scripts e Python para automação de tarefas",
+        "Desenvolvimento e manutenção de Pipelines de CI/CD",
+        "Conhecimento de Docker e técnicas de containerização de aplicações",
+        "Prática extensa com Kubernetes",
+        "Manutenção em servidores Windows Server e configuração de servidores web IIS",
+        "Gerenciamento de arquivos de configuração, variáveis de ambiente e secrets",
+        "Monitoramento de aplicações e telemetria com Elastic Stack, Prometheus/Grafana, Zabbix",
+        "Uso de metodologias ágeis",
+        "Versado em Git e práticas que compõem o GitFlow",
+        "Conhecimento da cultura GitOps com ArgoCD e Kustomize",
+        "Conhecimento da linguagem C# e a plataforma .NET e seu ecossistema",
+        "Conhecimento de funcionamento de API's, arquitetura REST, protocolo HTTP",
+        "Uso de ferramentas de teste como Postman e banco de dados MongoDB",
+        "Governança e documentação através de Wiki's",
+        "AWS (EKS, EC2, ECR, etc)"
       ],
-      technologies: ["AWS", "Node.js", "Python", "Terraform", "Docker"]
+      technologies: ["Python", "Shell Script", "Docker", "Kubernetes", "CI/CD", "AWS", "Prometheus", "Grafana", "ArgoCD", "Git"]
     },
     {
       id: 2,
-      company: "Microsoft",
-      position: "Desenvolvedor Full Stack",
-      period: "Mar 2021 - Dez 2022",
-      location: "Remoto",
+      company: "Rocket app tec",
+      position: "Desenvolvedor WEB",
+      period: "Abril de 2022 - Maio de 2024 (2 anos 2 meses)",
+      location: "Fortaleza, Ceará, Brasil",
       description: [
-        "Desenvolvimento de aplicações web utilizando React e .NET Core",
-        "Implementação de microsserviços e APIs RESTful",
-        "Integração com Azure DevOps para CI/CD",
-        "Participação em projetos ágeis com metodologia Scrum"
+        "Atuei como desenvolvedor web em projetos de backend e frontend, com foco na construção de APIs RESTful utilizando Node.js e Ruby on Rails",
+        "Garantia de integração segura e rastreável com serviços externos",
+        "No frontend, trabalhei com React, Vue.js, TailwindCSS, EJS e Next.js, criando interfaces modernas, responsivas e otimizadas para SEO",
+        "Utilização de TypeScript para garantir maior qualidade e segurança no código",
+        "Participação na automação de pipelines CI/CD com Azure DevOps, GitHub Actions e GitLab CI",
+        "Containerização com Docker e orquestração via Kubernetes (manifests, ingress, ConfigMaps, secrets)",
+        "Implementação de práticas GitOps com ArgoCD e Kustomize",
+        "Automação de infraestrutura com Terraform em ambientes AWS, GCP e Azure",
+        "Atuação com ferramentas de monitoramento como Prometheus, Grafana e ELK Stack",
+        "Apoio ao time em processos de deploy, rollback, troubleshooting e suporte pós-produção",
+        "Trabalho em times ágeis, contribuindo com documentação técnica em wikis e padronização de processos",
+        "Foco em estabilidade, performance e entregas contínuas"
       ],
-      technologies: ["React", "TypeScript", ".NET Core", "SQL Server", "Azure"]
-    },
-    {
-      id: 3,
-      company: "Google",
-      position: "Desenvolvedor Frontend",
-      period: "Jun 2019 - Fev 2021",
-      location: "Belo Horizonte, MG",
-      description: [
-        "Desenvolvimento de interfaces responsivas e acessíveis",
-        "Implementação de componentes reutilizáveis com React",
-        "Otimização de performance e SEO",
-        "Colaboração com designers para implementação de UI/UX"
-      ],
-      technologies: ["JavaScript", "React", "Redux", "SASS", "Webpack"]
+      technologies: ["Node.js", "Ruby on Rails", "React", "Vue.js", "Next.js", "TypeScript", "Docker", "Kubernetes", "Terraform", "AWS", "GCP", "Azure"]
     }
   ];
 

@@ -106,6 +106,36 @@ const Header = () => {
         </ul>
       </motion.nav>
 
+      <motion.nav 
+        className="main-nav"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8, delay: 0.7 }}
+      >
+        <ul className="nav-links">
+          <li>
+            <Link to="jobs" smooth={true} duration={500}>
+              Projetos
+            </Link>
+          </li>
+          <li>
+            <Link to="experience" smooth={true} duration={500}>
+              Experiência
+            </Link>
+          </li>
+          <li>
+            <Link to="services" smooth={true} duration={500}>
+              Serviços
+            </Link>
+          </li>
+          <li>
+            <Link to="contact" smooth={true} duration={500}>
+              Contato
+            </Link>
+          </li>
+        </ul>
+      </motion.nav>
+
       <Link
         to="jobs"
         smooth={true}

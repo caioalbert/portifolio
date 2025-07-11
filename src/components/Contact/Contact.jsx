@@ -66,7 +66,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="contact" ref={ref}>
+    <section id="contact" className="contact" ref={ref}>
       <motion.header 
         className="flex-col-8"
         initial={{ opacity: 0, y: 20 }}

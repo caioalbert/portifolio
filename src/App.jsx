@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import Header from './components/Header/Header';
 import Projects from './components/Projects/Projects';
+import Experience from './components/Experience/Experience';
 import Services from './components/Services/Services';
 import Contact from './components/Contact/Contact';
 import './App.css';
@@ -63,6 +64,7 @@ function App() {
           <Header />
           <main>
             <Projects />
+            <Experience />
             <Services />
             <Contact />
           </main>

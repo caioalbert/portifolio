@@ -64,7 +64,7 @@ const Services = () => {
   };
 
   return (
-    <section className="services" ref={ref}>
+    <section id="services" className="services" ref={ref}>
       <motion.header 
         className="flex-col-8"
         initial={{ opacity: 0, y: 20 }}

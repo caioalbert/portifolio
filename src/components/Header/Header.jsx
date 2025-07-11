@@ -75,16 +75,17 @@ const Header = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.5 }}
       >
-        <ul className="gap-16 flex">
+        <ul className="tech-list gap-16 flex">
           {technologies.map((tech, index) => (
             <motion.li 
               key={tech.name}
               initial={{ x: -50, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.1 * index }}
+              className="tech-item"
             >
               <img src={tech.logo} alt={`logo ${tech.name}`} />
-              {tech.name}
+              <span>{tech.name}</span>
             </motion.li>
           ))}
         </ul>

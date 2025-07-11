@@ -1,6 +1,9 @@
-# Portfólio Dev - Versão React
+# Bem vindo ao meu Portfólio 
 
-Este projeto é uma versão modernizada em React do portfólio de um desenvolvedor fictício, originalmente criado como parte do curso Fullstack da Rocketseat.
+
+<img width="1836" height="933" alt="image" src="https://github.com/user-attachments/assets/94122116-d00d-4acb-825f-8175f88f7b64" />
+
+
 
 ## 🚀 Tecnologias
 
@@ -53,7 +56,3 @@ O aplicativo estará disponível no seu navegador pelo endereço http://localhos
 ## 📚 Aprendizados
 
 Este projeto demonstra a migração de um site estático HTML/CSS/JS para uma aplicação React moderna, utilizando bibliotecas populares para criar uma experiência de usuário mais rica e interativa.
-
----
-
-Feito com ❤️

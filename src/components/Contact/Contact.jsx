@@ -22,7 +22,7 @@ const Contact = () => {
       id: 'linkedin',
       name: 'Linkedin',
       icon: <FaLinkedin size={24} />,
-      url: 'https://www.linkedin.com/in/caioalbert/',
+      url: 'https://www.linkedin.com/in/caio-alberto-ferreira-3b7ab3188/',
     },
     {
       id: 'instagram',
@@ -40,7 +40,7 @@ const Contact = () => {
       id: 'email',
       name: 'E-mail',
       icon: <FaEnvelope size={24} />,
-      url: 'mailto:caioalbert@example.com',
+      url: 'mailto:caioalberto2104@gmail.com',
     },
   ];
 
@@ -67,7 +67,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="contact" ref={ref}>
-      <motion.header 
+      <motion.header
         className="flex-col-8"
         initial={{ opacity: 0, y: 20 }}
         animate={controls}
@@ -82,16 +82,16 @@ const Contact = () => {
         </p>
       </motion.header>
 
-      <motion.div 
+      <motion.div
         className="links grid gap-16"
         variants={containerVariants}
         initial="hidden"
         animate={controls}
       >
         {socialLinks.map((link) => (
-          <motion.a 
-            href={link.url} 
-            className="inherit" 
+          <motion.a
+            href={link.url}
+            className="inherit"
             key={link.id}
             variants={itemVariants}
             whileHover={{ scale: 1.05 }}

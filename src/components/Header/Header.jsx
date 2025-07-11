@@ -16,9 +16,24 @@ import dockerLogo from '../../assets/logos/docker.svg';
 
 const Header = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     setIsVisible(true);
+    
+    // Detectar se é dispositivo móvel
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+    
+    // Verificar inicialmente
+    checkMobile();
+    
+    // Adicionar listener para redimensionamento
+    window.addEventListener('resize', checkMobile);
+    
+    // Limpar listener
+    return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
   const technologies = [
@@ -35,7 +50,7 @@ const Header = () => {
   return (
     <motion.header 
       id="info" 
-      className="container"
+      className={`container ${isMobile ? 'mobile-container' : ''}`}
       initial={{ opacity: 0 }}
       animate={{ opacity: isVisible ? 1 : 0 }}
       transition={{ duration: 1 }}
@@ -104,7 +119,7 @@ const Header = () => {
           animate={{ y: [0, 5, 0] }}
           transition={{ repeat: Infinity, duration: 1.5 }}
         >
-          <FaChevronDown size={24} />
+          <FaChevronDown size={isMobile ? 18 : 24} />
         </motion.button>
       </Link>
     </motion.header>
